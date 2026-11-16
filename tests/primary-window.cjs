@@ -1,0 +1,1 @@
+module.exports=async function primaryWindow(app){let until=Date.now()+20000;while(Date.now()<until){let p=app.windows().find(x=>x.url().endsWith('/index.html'));if(p)return p;await new Promise(r=>setTimeout(r,50))}throw Error('Main window did not load index.html')};

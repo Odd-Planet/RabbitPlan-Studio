@@ -1,0 +1,4 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto');
+function validateProject(data){let p=JSON.parse(data);if(!p||typeof p!=='object'||typeof p.name!=='string'||!Number.isFinite(p.width)||p.width<20||p.width>58||!Number.isFinite(p.height)||p.height<25||p.height>500||!Array.isArray(p.cards)||!p.cards.length||p.cards.some(c=>!c||typeof c.name!=='string'||!c.data||!Array.isArray(c.data.objects)))throw Error('Invalid project file');return p}
+function atomicSave(file,data){if(typeof file!=='string'||!file)throw Error('Invalid filename');validateProject(data);let temp=path.join(path.dirname(file),'.'+path.basename(file)+'.'+crypto.randomBytes(8).toString('hex')+'.tmp'),fd;try{fd=fs.openSync(temp,'wx');fs.writeFileSync(fd,data,'utf8');fs.fsyncSync(fd);fs.closeSync(fd);fd=undefined;fs.renameSync(temp,file)}catch(e){if(fd!==undefined)try{fs.closeSync(fd)}catch{}try{fs.unlinkSync(temp)}catch{}throw e}}
+module.exports={validateProject,atomicSave};

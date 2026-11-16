@@ -1,0 +1,65 @@
+{
+  "name": "rabbitplan-studio",
+  "version": "2.0.1",
+  "description": "Offline planboard card design studio",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win nsis --x64"
+  },
+  "devDependencies": {
+    "electron": "35.7.5",
+    "electron-builder": "26.0.12",
+    "playwright": "^1.54.2"
+  },
+  "build": {
+    "appId": "studio.kufquf.rabbitplan",
+    "productName": "Rabbitplan Studio",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "style.css",
+      "app.js",
+      "fabric.min.js",
+      "connectors.js",
+      "project-store.js",
+      "icon-service.js",
+      "magic-text.js",
+      "studio-assets.js",
+      "lucide-icons.json",
+      "LUCIDE-LICENSE.txt",
+      "template-gallery.js",
+      "rabbitplan-icon.png",
+      "editor-fixes.js",
+      "fonts/**/*",
+      "lx-d02.js",
+      "pdf-print.js",
+      "image-print.js",
+      "vendor/pdfjs/**/*",
+      "vendor/funnyprint.js",
+      "vendor/POCKETPRINT-LICENSE.txt",
+      "oddplanet-logo.png",
+      "splash.html"
+    ],
+    "win": {
+      "target": "nsis",
+      "signAndEditExecutable": true,
+      "icon": "rabbitplan.ico"
+    },
+    "compression": "normal",
+    "npmRebuild": false,
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "deleteAppDataOnUninstall": false,
+      "artifactName": "RabbitPlan-Studio-Setup-${version}-x64.${ext}",
+      "installerIcon": "rabbitplan.ico",
+      "uninstallerIcon": "rabbitplan.ico",
+      "installerHeaderIcon": "rabbitplan.ico"
+    }
+  }
+}

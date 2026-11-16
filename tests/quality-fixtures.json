@@ -1,0 +1,79 @@
+{
+  "texts": [
+    {
+      "id": "T1",
+      "text": "وظایف:\nبا علی تماس بگیر.\nچاپ سه کارت تا جمعه.",
+      "facts": []
+    },
+    {
+      "id": "T2",
+      "text": "عنوان: برنامه\nهدف: تحویل پروژه\nتاریخ: شنبه",
+      "facts": []
+    },
+    {
+      "id": "T3",
+      "text": "این یک یادداشت کوتاه فارسی است.",
+      "facts": []
+    },
+    {
+      "id": "T4",
+      "text": "Goal: finish the plan.\nTasks: create cards and print them.",
+      "facts": []
+    },
+    {
+      "id": "T5",
+      "text": "Meeting notes:\nCall Sam by Friday.\nDo not forget the 3 labels.",
+      "facts": []
+    },
+    {
+      "id": "T6",
+      "text": "سلام! Review the design tomorrow.\nمتن اصلی را نگه دار.",
+      "facts": []
+    },
+    {
+      "id": "T7",
+      "text": "مرحله اول: بررسی\nمرحله دوم: ویرایش\nمرحله سوم: چاپ",
+      "facts": []
+    },
+    {
+      "id": "T8",
+      "text": "Important: keep 58 mm width.\nTest output before printing.",
+      "facts": []
+    },
+    {
+      "id": "T9",
+      "text": "بودجه ۱۲۳ تومان است.\nمهلت مهم: ۱۴۰۵/۰۸/۲۱.",
+      "facts": []
+    },
+    {
+      "id": "T10",
+      "text": "Title: Project Rabbit\nPhase: Design\nDeadline: Tuesday",
+      "facts": []
+    },
+    {
+      "id": "T11",
+      "text": "نکته: قبل از چاپ متن را بررسی کن.\nبرای فردا آماده شود.",
+      "facts": []
+    },
+    {
+      "id": "T12",
+      "text": "One sentence.",
+      "facts": []
+    },
+    {
+      "id": "T13",
+      "text": "یک جمله کوتاه.",
+      "facts": []
+    },
+    {
+      "id": "T14",
+      "text": "Tasks:\n1. Add text.\n2. Add images.\n3. Save the project.",
+      "facts": []
+    },
+    {
+      "id": "T15",
+      "text": "پروژه English:\nکار اول: design.\nکار دوم: print.",
+      "facts": []
+    }
+  ]
+}

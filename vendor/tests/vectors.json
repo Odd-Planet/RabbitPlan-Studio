@@ -1,0 +1,286 @@
+{
+ "crc": [
+  {
+   "data": "59",
+   "crc": 52188
+  },
+  {
+   "data": "4cf6a9b7a3b54d",
+   "crc": 11619
+  },
+  {
+   "data": "df9ee2dd8a791ee5a0",
+   "crc": 12449
+  }
+ ],
+ "auth": [
+  {
+   "challenge": "faaa81cba196a16851ca",
+   "mac": "6e6755ecf37d",
+   "low": "E374AD0F5B925B82C36E",
+   "high": "886247692969297406D1"
+  },
+  {
+   "challenge": "1d621a04dbbb0d5f4765",
+   "mac": "3dc0edd86009",
+   "low": "5CD418EB6C7627538590",
+   "high": "646A7D78B30053D97D73"
+  },
+  {
+   "challenge": "e670f9621822f5e425d5",
+   "mac": "8b7dd1a18d7e",
+   "low": "3E99AC012EEDC7DDA931",
+   "high": "3409895E2983DB549AB5"
+  },
+  {
+   "challenge": "5d0f60d9b1fb230f3503",
+   "mac": "97caf2a3955a",
+   "low": "2652A119AE0CCF529139",
+   "high": "F9734A93B39D4F73D921"
+  },
+  {
+   "challenge": "858f0201d645e0175f8b",
+   "mac": "fb3ebf9ad9f2",
+   "low": "236D9E1C36369E4203AB",
+   "high": "B94A0BD38BCF73450B8B"
+  },
+  {
+   "challenge": "be1acd5c0244011dc394",
+   "mac": "08e9b07dea20",
+   "low": "5D94BE5D428BC0D036E5",
+   "high": "EEEAB2964E3296F38073"
+  }
+ ],
+ "frames": [
+  {
+   "name": "hello",
+   "hex": "5a0100000000000000000000"
+  },
+  {
+   "name": "challenge",
+   "hex": "5a0a02030405060708090a0b"
+  },
+  {
+   "name": "auth_reply",
+   "hex": "5a0babababababababababab"
+  },
+  {
+   "name": "density",
+   "hex": "5a0c03"
+  },
+  {
+   "name": "print_start",
+   "hex": "5a0412340000"
+  },
+  {
+   "name": "print_end",
+   "hex": "5a0400030100"
+  },
+  {
+   "name": "raster",
+   "hex": "550001ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00"
+  }
+ ],
+ "raster": [
+  {
+   "name": "alternating",
+   "width": 8,
+   "height": 1,
+   "pixels": [
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0,
+    255
+   ],
+   "threshold": 128,
+   "dither": false,
+   "packed": "aa"
+  },
+  {
+   "name": "all_white",
+   "width": 8,
+   "height": 1,
+   "pixels": [
+    255,
+    255,
+    255,
+    255,
+    255,
+    255,
+    255,
+    255
+   ],
+   "threshold": 128,
+   "dither": false,
+   "packed": "00"
+  },
+  {
+   "name": "all_black",
+   "width": 8,
+   "height": 1,
+   "pixels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "threshold": 128,
+   "dither": false,
+   "packed": "ff"
+  },
+  {
+   "name": "two_bytes",
+   "width": 16,
+   "height": 1,
+   "pixels": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    255,
+    255,
+    255,
+    255,
+    255,
+    255,
+    255,
+    255
+   ],
+   "threshold": 128,
+   "dither": false,
+   "packed": "ff00"
+  },
+  {
+   "name": "gradient",
+   "width": 16,
+   "height": 2,
+   "pixels": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    56,
+    64,
+    72,
+    80,
+    88,
+    96,
+    104,
+    112,
+    120,
+    128,
+    136,
+    144,
+    152,
+    160,
+    168,
+    176,
+    184,
+    192,
+    200,
+    208,
+    216,
+    224,
+    232,
+    240,
+    248
+   ],
+   "threshold": 128,
+   "dither": false,
+   "packed": "ffff0000"
+  },
+  {
+   "name": "flat_gray_disabled",
+   "width": 8,
+   "height": 1,
+   "pixels": [
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127
+   ],
+   "threshold": 128,
+   "dither": false,
+   "packed": "ff"
+  },
+  {
+   "name": "flat_gray_enabled",
+   "width": 8,
+   "height": 1,
+   "pixels": [
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127,
+    127
+   ],
+   "threshold": 128,
+   "dither": true,
+   "packed": "aa"
+  },
+  {
+   "name": "checker",
+   "width": 16,
+   "height": 2,
+   "pixels": [
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0,
+    255,
+    0
+   ],
+   "threshold": 128,
+   "dither": true,
+   "packed": "aaaa5555"
+  }
+ ]
+}
