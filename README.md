@@ -88,17 +88,14 @@ npm run build:win
 
 ---
 
-## 🏢 Developed by ODD Planet
+## Development
 
-RabbitPlan Studio is an ODD Planet product.
+Requirements: Node.js and npm.
 
-- Organization: https://github.com/Odd-Planet
-- Repository: https://github.com/Odd-Planet/RabbitPlan-Studio
-- Releases: https://github.com/Odd-Planet/RabbitPlan-Studio/releases
-
----
-
-## 📄 License
+```bash
+npm install
+npm start
+npm run build:win
 
 MIT License
 
