@@ -35,7 +35,7 @@ Create custom printable cards, project plans, notes, checklists, labels, and mor
 ![RabbitPlan Print Preview](screenshots/print-preview.png)
 
 ###Card List
-![RabbitPlan CardList](screenshots/card-list.png)
+![RabbitPlan Card_List](screenshots/card-list.png)
 
 ---
 
