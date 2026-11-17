@@ -1,45 +1,9 @@
-﻿# RabbitPlan Studio
+# RabbitPlan Studio
 
-**Visual project planning and thermal printing, reimagined.**
+### A Free Windows Alternative to Funny Print
 
-RabbitPlan Studio is an offline-first Windows desktop application for creating, organizing, customizing, and printing visual planning cards using 58mm mini thermal printers.
+RabbitPlan Studio is an offline-first Windows application for designing, organizing, and printing content on 58mm mini thermal printers.
 
-## Features
+Create custom printable cards, project plans, notes, checklists, labels, and more. Arrange your content, customize templates, and print directly from your workspace.
 
-- Visual project management
-- Customizable card templates
-- Goals, milestones, tasks, notes, and phases
-- Automatic splitting of long text into printable pages
-- Built-in icon library and custom icon support
-- Image and PDF printing
-- Local project storage
-- Offline-first workflow
-
-## Compatibility
-
-Designed for 58mm mini thermal printers.
-
-## Installation
-
-Download the latest Windows installer from [GitHub Releases](https://github.com/Odd-Planet/RabbitPlan-Studio/releases).
-
-## Development
-
-**Requirements:** Node.js and npm.
-
-```bash
-npm install
-npm start
-npm run build:win```
-
-## License
-
-MIT License. See [LICENSE](LICENSE).
-
-Copyright (c) 2026 ODD Planet.
-
-## Created by
-
-**ODD Planet**
-
-Building unusual things for an unusual planet.
+**No cloud account required. Your projects stay on your device.**
