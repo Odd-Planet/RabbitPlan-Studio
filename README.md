@@ -23,6 +23,22 @@ Create custom printable cards, project plans, notes, checklists, labels, and mor
 
 ---
 
+## 🖼️ Screenshots
+
+### Project Dashboard
+![RabbitPlan Project Dashboard](screenshots/dashboard.png)
+
+### Card Editor
+![RabbitPlan Card Editor](screenshots/card-editor.png)
+
+### Print Preview
+![RabbitPlan Print Preview](screenshots/print-preview.png)
+
+###Card List
+![RabbitPlan CardList](screenshots/card-list.png)
+
+---
+
 ## 🖨️ Printer Compatibility
 
 Designed for Windows users working with 58mm mini thermal printers.
