@@ -28,14 +28,14 @@ Create custom printable cards, project plans, notes, checklists, labels, and mor
 ### Project Dashboard
 ![RabbitPlan Project Dashboard](screenshots/dashboard.png)
 
+### Card Library
+![RabbitPlan Card Library](screenshots/Card-List.png)
+
 ### Card Editor
 ![RabbitPlan Card Editor](screenshots/card-editor.png)
 
 ### Print Preview
 ![RabbitPlan Print Preview](screenshots/print-preview.png)
-
-###Card List
-![RabbitPlan Card_List](screenshots/Card-List.png)
 
 ---
 
@@ -68,19 +68,20 @@ RabbitPlan Studio is not limited to a single printer brand or model. Actual comp
 
 ## 🛠️ Development
 
-Requirements:
+### Requirements
+
 - Windows 10/11
 - Node.js
 - npm
 
-Run locally:
+### Run locally
 
 ```bash
 npm install
 npm start
 ```
 
-Build for Windows:
+### Build for Windows
 
 ```bash
 npm run build:win
@@ -88,15 +89,16 @@ npm run build:win
 
 ---
 
-## Development
+## 📄 License
 
-Requirements: Node.js and npm.
+MIT License. See [LICENSE](LICENSE).
 
-```bash
-npm install
-npm start
-npm run build:win
+Copyright (c) 2026 ODD Planet.
 
-MIT License
+---
 
-Copyright (c) 2026 ODD Planet
+## 🌍 Created by
+
+**ODD Planet**
+
+Building unusual things for an unusual planet.
